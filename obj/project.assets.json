@@ -1,0 +1,97 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "SharedApi/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/SharedApi.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/SharedApi.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SharedApi/1.0.0": {
+      "sha512": "CdkqoWm1WzebTUj5HFQ0WBp/7lDKBIrI+wUWBScwNE3/J7s36Xk3rbARu7lHngzUsTXEfZ7Sh/axH0h2+C1qyQ==",
+      "type": "package",
+      "path": "sharedapi/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        "lib/net5.0/SharedApi.dll",
+        "sharedapi.1.0.0.nupkg.sha512",
+        "sharedapi.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "SharedApi >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\VJ\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "c:\\VJ\\Azure DevOps\\SharedApi\\ConsumePackage\\ConsumePackage.csproj",
+      "projectName": "ConsumePackage",
+      "projectPath": "c:\\VJ\\Azure DevOps\\SharedApi\\ConsumePackage\\ConsumePackage.csproj",
+      "packagesPath": "C:\\Users\\VJ\\.nuget\\packages\\",
+      "outputPath": "c:\\VJ\\Azure DevOps\\SharedApi\\ConsumePackage\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "c:\\VJ\\Azure DevOps\\SharedApi\\ConsumePackage\\NuGet.Config",
+        "c:\\VJ\\Azure DevOps\\SharedApi\\NuGet.Config",
+        "C:\\Users\\VJ\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "https://pkgs.dev.azure.com/vijayc42/_packaging/VJLibrary/nuget/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "dependencies": {
+          "SharedApi": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
